@@ -222,13 +222,15 @@ window.MUMWA_CONFIG = {
     {
       name: "AMIRI MUSSA RULIMBIYE",
       role: "Chief Executive Officer (CEO)",
-      image: "",
+      image: "assets/NO PROFILE PHOTO.jpg",
+      imageAlt: "CEO",
       bio: "Leads MUMWA PHARMACY with a focus on strong business management and dependable healthcare access for the Iringa community. Committed to professional customer service and to growing the pharmacy's role as a trusted local healthcare partner."
     },
     {
       name: "MARKDONALD WILLIAM NDAMBWE",
       role: "Pharmacy Assistant",
-      image: "",
+      image: "assets/NO PROFILE PHOTO.jpg",
+      imageAlt: "Assistant",
       bio: "Supports day-to-day pharmacy operations, helping customers find and understand the healthcare products available and keeping the shop floor organized, professional and welcoming."
     }
   ],

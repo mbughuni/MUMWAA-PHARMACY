@@ -206,7 +206,7 @@
     if (!el) return;
     el.innerHTML = cfg.team.map((t, i) => `
       <div class="team-card reveal" style="--i:${i}">
-        ${placeholder(t.name, 'Replace with a professional portrait photo', 'handshake')}
+        ${photoBlock(t.image, t.imageAlt, t.name, 'handshake')}
         <div class="team-body">
           <span class="team-role">${t.role}</span>
           <h3>${t.name}</h3>
