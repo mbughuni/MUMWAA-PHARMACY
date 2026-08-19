@@ -227,7 +227,7 @@
         : 'https://www.google.com/maps/search/' + encodeURIComponent(b.address);
       return `
       <div class="branch-card reveal" style="--i:${i}">
-        ${placeholder(b.name, 'Replace with a photo of this branch', 'hospital')}
+        ${placeholder(b.name, '', 'hospital')}
         <div class="branch-body">
           <h3>${iconSvg('pin')} ${b.name}</h3>
           <p class="branch-addr">${b.address}</p>
