@@ -184,7 +184,7 @@ window.MUMWA_CONFIG = {
     }
   ],
 
-  /
+  
   whyChooseUs: [
     {
       icon: "grid",
