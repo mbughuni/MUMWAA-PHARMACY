@@ -414,31 +414,48 @@
   /* ---------------------------------------------------------------
      INIT
   --------------------------------------------------------------- */
-  function init() {
-    renderBrand();
-    renderNav();
-    renderPhones();
-    renderEmail();
-    renderAddress();
-    renderWhatsapp();
-    renderHighlights();
-    renderCategories();
-    renderShowcase();
-    renderServices();
-    renderWhyUs();
-    renderTeam();
-    renderBranches();
-    renderMap();
-    renderFooterNav();
-    renderSocial();
+function hidePageLoader() {
+  const loader = $('#pageLoader');
 
-    initHeader();
-    initActiveNav();
-    initReveal();
-    initForm();
+  if (!loader) return;
 
-    $('#currentYear') && ($('#currentYear').textContent = cfg.business.year);
-  }
+  setTimeout(() => {
+    loader.classList.add('loaded');
 
-  document.addEventListener('DOMContentLoaded', init);
+    setTimeout(() => {
+      loader.remove();
+    }, 500);
+  }, 350);
+}
+
+function init() {
+
+  renderBrand();
+  renderNav();
+  renderPhones();
+  renderEmail();
+  renderAddress();
+  renderWhatsapp();
+  renderHighlights();
+  renderCategories();
+  renderShowcase();
+  renderServices();
+  renderWhyUs();
+  renderTeam();
+  renderBranches();
+  renderMap();
+  renderFooterNav();
+  renderSocial();
+
+  initHeader();
+  initActiveNav();
+  initReveal();
+  initForm();
+
+  $('#currentYear') && ($('#currentYear').textContent = cfg.business.year);
+
+  window.addEventListener('load', hidePageLoader, { once: true });
+}
+
+document.addEventListener('DOMContentLoaded', init);
 })();
