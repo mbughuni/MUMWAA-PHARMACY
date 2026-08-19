@@ -345,7 +345,7 @@
     const rules = {
       name: v => v.trim().length >= 2 || 'Please enter your full name.',
       phone: v => /^[0-9+()\s-]{7,15}$/.test(v.trim()) || 'Please enter a valid phone number.',
-     email: v => v.trim() === '' || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) || 'Please enter a valid email address.',
+      email: v => v.trim() === '' || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) || 'Please enter a valid email address.',
       message: v => v.trim().length >= 10 || 'Please enter at least 10 characters.'
     };
 
@@ -411,60 +411,34 @@
     });
   }
 
- /* ---------------------------------------------------------------
-   INIT
---------------------------------------------------------------- */
+  /* ---------------------------------------------------------------
+     INIT
+  --------------------------------------------------------------- */
+  function init() {
+    renderBrand();
+    renderNav();
+    renderPhones();
+    renderEmail();
+    renderAddress();
+    renderWhatsapp();
+    renderHighlights();
+    renderCategories();
+    renderShowcase();
+    renderServices();
+    renderWhyUs();
+    renderTeam();
+    renderBranches();
+    renderMap();
+    renderFooterNav();
+    renderSocial();
 
+    initHeader();
+    initActiveNav();
+    initReveal();
+    initForm();
 
+    $('#currentYear') && ($('#currentYear').textContent = cfg.business.year);
+  }
 
-function init() {
-
-  renderBrand();
-
-  renderNav();
-
-  renderPhones();
-
-  renderEmail();
-
-  renderAddress();
-
-  renderWhatsapp();
-
-  renderHighlights();
-
-  renderCategories();
-
-  renderShowcase();
-
-  renderServices();
-
-  renderWhyUs();
-
-  renderTeam();
-
-  renderBranches();
-
-  renderMap();
-
-  renderFooterNav();
-
-  renderSocial();
-
-  initHeader();
-
-  initActiveNav();
-
-  initReveal();
-
-  initForm();
-
-  $('#currentYear') && ($('#currentYear').textContent = cfg.business.year);
-
-
-
-}
-
-document.addEventListener('DOMContentLoaded', init);
-
+  document.addEventListener('DOMContentLoaded', init);
 })();
