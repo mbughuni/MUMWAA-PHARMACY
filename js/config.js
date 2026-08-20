@@ -223,7 +223,7 @@ window.MUMWA_CONFIG = {
     {
       name: "MARKDONALD WILLIAM NDAMBWE",
       role: "Pharmacy Assistant",
-      image: "assets/NO PROFILE PHOTO.jpg",
+      image: "assets/mcdonald.png",
       imageAlt: "Assistant",
       bio: "Supports day-to-day pharmacy operations, helping customers find and understand the healthcare products available and keeping the shop floor organized, professional and welcoming."
     }
