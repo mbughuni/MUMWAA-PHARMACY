@@ -2,9 +2,7 @@
 
 window.MUMWA_CONFIG = {
 
-  // ---------------------------------------------------------------
-  // CORE BUSINESS INFO
-  // ---------------------------------------------------------------
+ 
   business: {
     name: "MUMWA PHARMACY",
     tagline: "Your Trusted Pharmacy & Healthcare Partner in Iringa",
@@ -218,7 +216,7 @@ window.MUMWA_CONFIG = {
     {
       name: "AMIRI MUSSA RULIMBIYE",
       role: "Chief Executive Officer (CEO)",
-      image: "assets/NO PROFILE PHOTO.jpg",
+      image: "assets/amiri.png",
       imageAlt: "CEO",
       bio: "Leads MUMWA PHARMACY with a focus on strong business management and dependable healthcare access for the Iringa community. Committed to professional customer service and to growing the pharmacy's role as a trusted local healthcare partner."
     },
