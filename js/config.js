@@ -13,7 +13,7 @@ window.MUMWA_CONFIG = {
     email: "amirirurimbiye@gmail.com",
     phones: [
       { display: "0672 122 531", href: "tel:+255672122531" },
-      { display: "0764 122 531", href: "tel:+255764122531" }
+     
     ],
     // First phone number is used for the WhatsApp quick-contact button.
     whatsapp: "https://wa.me/255672122531",
@@ -223,7 +223,7 @@ window.MUMWA_CONFIG = {
     {
       name: "MARKDONALD WILLIAM NDAMBWE",
       role: "Pharmacy Assistant",
-      image: "assets/mcdonald.png",
+      image: "assets/mcdonald.PNG",
       imageAlt: "Assistant",
       bio: "Supports day-to-day pharmacy operations, helping customers find and understand the healthcare products available and keeping the shop floor organized, professional and welcoming."
     }
