@@ -225,7 +225,7 @@ window.MUMWA_CONFIG = {
       role: "Pharmacy Assistant",
       image: "assets/markdonald-ndambwe.jpg",
       imageAlt: "Assistant",
-      bio: "Supports day-to-day pharmacy operations, helping customers find and understand the healthcare products available and keeping the shop floor organized, professional and welcoming."
+      bio: "Supports the overall management and strategic operations of MUMWA PHARMACY, working closely with the leadership team to coordinate business activities, strengthen operational efficiency, and support the pharmacy's growth and development"
     }
   ],
 
